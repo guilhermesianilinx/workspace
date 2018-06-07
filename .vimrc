@@ -2,6 +2,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'morhetz/gruvbox'
 Plug 'scrooloose/nerdtree'
 Plug 'kien/ctrlp.vim'
+Plug 'bling/vim-airline'
 call plug#end()
 
 filetype plugin indent on
@@ -16,3 +17,6 @@ set number
 
 colorscheme gruvbox
 set background=dark    " Setting dark mode
+
+" NERDTree shortcut
+map <C-n> :NERDTreeToggle<CR>
