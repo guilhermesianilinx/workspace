@@ -3,6 +3,7 @@ Plug 'morhetz/gruvbox'
 Plug 'scrooloose/nerdtree'
 Plug 'kien/ctrlp.vim'
 Plug 'bling/vim-airline'
+Plug 'lumiliet/vim-twig'
 call plug#end()
 
 filetype plugin indent on
