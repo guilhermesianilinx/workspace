@@ -20,3 +20,10 @@ set background=dark    " Setting dark mode
 
 " NERDTree shortcut
 map <C-n> :NERDTreeToggle<CR>
+
+" swapfiles location
+set backupdir=/tmp//
+set directory=/tmp//
+
+" Consider gitignore files on CTRLP
+let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
