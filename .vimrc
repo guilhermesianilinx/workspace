@@ -28,3 +28,6 @@ set directory=/tmp//
 
 " Consider gitignore files on CTRLP
 let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
+
+" Search result highlighting
+set hlsearch
