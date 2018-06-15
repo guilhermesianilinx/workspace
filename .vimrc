@@ -6,7 +6,9 @@ Plug 'morhetz/gruvbox'
 Plug 'scrooloose/nerdtree'
 Plug 'kien/ctrlp.vim'
 Plug 'bling/vim-airline'
-Plug 'lumiliet/vim-twig'
+Plug 'airblade/vim-gitgutter'
+Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'w0rp/ale'
 call plug#end()
 
 filetype plugin indent on
@@ -19,7 +21,6 @@ set shiftwidth=4
 set expandtab
 " Line numbers
 set number
-
 " Search result highlighting
 set hlsearch
 
@@ -36,5 +37,7 @@ set directory=/tmp//
 " Consider gitignore files on CTRLP
 let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
 
-set colorcolumn=80                                                              
-set backspace=indent,eol,start   
+set colorcolumn=80
+set backspace=indent,eol,start
+
+let g:ale_lint_on_save = 1
