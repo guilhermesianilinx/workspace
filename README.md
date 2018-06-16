@@ -16,3 +16,5 @@ Install
 Tips
 
 - Vim plugins (https://vimawesome.com)
+- Vim cheat sheet (https://vim.rtorr.com)
+- Mailtrap (https://mailtrap.io/)
