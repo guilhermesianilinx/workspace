@@ -9,6 +9,7 @@ Plug 'bling/vim-airline'
 Plug 'airblade/vim-gitgutter'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'w0rp/ale'
+Plug 'lumiliet/vim-twig'
 call plug#end()
 
 filetype plugin indent on
