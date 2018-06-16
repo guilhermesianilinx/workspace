@@ -5,6 +5,7 @@ Install
 - vim (https://www.vim.org)
 - vim-plug (https://github.com/junegunn/vim-plug)
 - git (https://git-scm.com)
+- ohmyzsh (http://ohmyz.sh)
 - tldr (https://tldr.sh)
 - translator (https://github.com/soimort/translate-shell)
 - tig (https://jonas.github.io/tig)
