@@ -19,3 +19,4 @@ Tips
 - Vim cheat sheet (https://vim.rtorr.com)
 - Mailtrap (https://mailtrap.io/)
 - Refined github (https://github.com/sindresorhus/refined-github)
+- Pure Bash Bible (https://github.com/dylanaraps/pure-bash-bible)
