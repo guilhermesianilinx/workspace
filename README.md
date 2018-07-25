@@ -12,6 +12,7 @@ Install
 - docker (https://www.docker.com)
 - slack (https://slack.com)
 - todolist (http://todolist.site)
+- ctags (http://docs.ctags.io/en/latest/index.html)
 
 Tips
 
