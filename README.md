@@ -13,6 +13,7 @@ Install
 - slack (https://slack.com)
 - todolist (http://todolist.site)
 - ctags (http://docs.ctags.io/en/latest/index.html)
+- ack (https://beyondgrep.com/install/)
 
 Tips
 
