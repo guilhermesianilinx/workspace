@@ -14,6 +14,7 @@ Plug 'scrooloose/nerdcommenter'
 Plug 'tpope/vim-surround'
 Plug 'arnaud-lb/vim-php-namespace'
 Plug 'craigemery/vim-autotag'
+Plug 'mileszs/ack.vim'
 call plug#end()
 
 filetype plugin indent on
@@ -68,3 +69,6 @@ autocmd FileType php noremap <Leader>e :call PhpExpandClass()<CR>
 
 "Remove all trailing whitespace by pressing F5
 nnoremap <F5> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar><CR>
+
+" Ack fix for osx
+let $PATH='/usr/local/bin:' . $PATH
