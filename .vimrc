@@ -13,7 +13,9 @@ Plug 'lumiliet/vim-twig'
 Plug 'scrooloose/nerdcommenter'
 Plug 'tpope/vim-surround'
 Plug 'arnaud-lb/vim-php-namespace'
-Plug 'craigemery/vim-autotag'
+Plug 'vim-vdebug/vdebug'
+Plug 'ludovicchabant/vim-gutentags'
+Plug 'terryma/vim-multiple-cursors'
 call plug#end()
 
 filetype plugin indent on
@@ -34,6 +36,7 @@ set background=dark    " Setting dark mode
 
 " NERDTree shortcut
 map <C-n> :NERDTreeToggle<CR>
+let g:NERDTreeWinSize=60
 
 " swapfiles location
 set backupdir=/tmp//
@@ -46,10 +49,6 @@ set colorcolumn=80
 set backspace=indent,eol,start
 
 let g:ale_lint_on_save = 1
-
-" EXPERIMENTAL CONFIGURATION
-let g:autotagTagsFile=".tags"
-set tags+=tags,tags.vendors
 
 " PHP Namespaces functions
 function! IPhpInsertUse()
@@ -68,3 +67,17 @@ autocmd FileType php noremap <Leader>e :call PhpExpandClass()<CR>
 
 "Remove all trailing whitespace by pressing F5
 nnoremap <F5> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar><CR>
+
+" Multicursor config
+let g:multi_cursor_use_default_mapping=0
+let g:multi_cursor_start_word_key      = '<C-j>'
+let g:multi_cursor_select_all_word_key = '<A-n>'
+let g:multi_cursor_start_key           = 'g<C-j>'
+let g:multi_cursor_select_all_key      = 'g<A-n>'
+let g:multi_cursor_next_key            = '<C-j>'
+let g:multi_cursor_prev_key            = '<C-p>'
+let g:multi_cursor_skip_key            = '<C-x>'
+let g:multi_cursor_quit_key            = '<Esc>'
+
+" Mouse support
+set mouse=a
