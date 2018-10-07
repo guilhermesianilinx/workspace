@@ -13,6 +13,7 @@ Install
 - slack (https://slack.com)
 - todolist (http://todolist.site)
 - ctags (http://docs.ctags.io/en/latest/index.html)
+- ddgr (https://linoxide.com/tools/search-duckduckgo-command-line/)
 
 Tips
 
@@ -21,3 +22,7 @@ Tips
 - Mailtrap (https://mailtrap.io/)
 - Refined github (https://github.com/sindresorhus/refined-github)
 - Pure Bash Bible (https://github.com/dylanaraps/pure-bash-bible)
+
+Search Engine
+
+- DuckDuckGo (https://duckduckgo.com/)
