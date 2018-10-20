@@ -26,3 +26,7 @@ Tips
 Search Engine
 
 - DuckDuckGo (https://duckduckgo.com/)
+
+OS
+
+- Elementary (https://elementary.io)
