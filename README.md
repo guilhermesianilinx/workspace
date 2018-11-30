@@ -14,6 +14,7 @@ Install
 - todolist (http://todolist.site)
 - ctags (http://docs.ctags.io/en/latest/index.html)
 - ddgr (https://linoxide.com/tools/search-duckduckgo-command-line/)
+- aws-cli (https://aws.amazon.com/cli/)
 - tmux (https://github.com/tmux/tmux/wiki)
 
 Tips
