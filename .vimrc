@@ -82,3 +82,6 @@ let g:multi_cursor_quit_key            = '<Esc>'
 
 " Mouse support
 set mouse=a
+
+" Prevent crashs when use multi-cursor
+set nolazyredraw
