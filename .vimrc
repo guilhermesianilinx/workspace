@@ -17,6 +17,7 @@ Plug 'vim-vdebug/vdebug'
 Plug 'ludovicchabant/vim-gutentags'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+Plug 'vim-vdebug/vdebug'
 call plug#end()
 
 filetype plugin indent on
