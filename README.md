@@ -18,6 +18,7 @@ Install
 - tmux (https://github.com/tmux/tmux/wiki)
 - mycli (https://www.mycli.net/)
 - aws-fuzzy (https://github.com/pmazurek/aws-fuzzy-finder)
+- awslogs (https://github.com/jorgebastida/awslogs)
 
 Tips
 
