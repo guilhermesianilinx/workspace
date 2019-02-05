@@ -16,6 +16,7 @@ Install
 - ddgr (https://linoxide.com/tools/search-duckduckgo-command-line/)
 - aws-cli (https://aws.amazon.com/cli/)
 - tmux (https://github.com/tmux/tmux/wiki)
+- mycli (https://www.mycli.net/)
 - aws-fuzzy (https://github.com/pmazurek/aws-fuzzy-finder)
 
 Tips
