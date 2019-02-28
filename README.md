@@ -19,6 +19,7 @@ Install
 - mycli (https://www.mycli.net/)
 - aws-fuzzy (https://github.com/pmazurek/aws-fuzzy-finder)
 - awslogs (https://github.com/jorgebastida/awslogs)
+- shellcheck (https://www.shellcheck.net/)
 
 Tips
 
