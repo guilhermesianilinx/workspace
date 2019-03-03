@@ -20,6 +20,7 @@ Install
 - aws-fuzzy (https://github.com/pmazurek/aws-fuzzy-finder)
 - awslogs (https://github.com/jorgebastida/awslogs)
 - shellcheck (https://www.shellcheck.net/)
+- jiracli (https://jiracli.com/)
 
 Tips
 
