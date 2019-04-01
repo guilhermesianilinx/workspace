@@ -21,6 +21,7 @@ Install
 - awslogs (https://github.com/jorgebastida/awslogs)
 - shellcheck (https://www.shellcheck.net/)
 - jiracli (https://jiracli.com/)
+- composerize (https://github.com/magicmark/composerize)
 
 Tips
 
