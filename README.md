@@ -7,6 +7,7 @@ Install
 - git (https://git-scm.com)
 - ohmyzsh (http://ohmyz.sh)
 - tldr (https://tldr.sh)
+- tree (https://www.geeksforgeeks.org/tree-command-unixlinux/)
 - translator (https://github.com/soimort/translate-shell)
 - tig (https://jonas.github.io/tig)
 - docker (https://www.docker.com)
