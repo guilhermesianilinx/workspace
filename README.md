@@ -33,6 +33,8 @@ Tips
 - Refined github (https://github.com/sindresorhus/refined-github)
 - Pure Bash Bible (https://github.com/dylanaraps/pure-bash-bible)
 - Vim Autocomplete (https://github.com/neoclide/coc.nvim)
+- Semantic Versioning (https://semver.org)
+- Keep Changelog https://keepachangelog.com
 
 Search Engine
 
