@@ -16,6 +16,8 @@ Plug 'arnaud-lb/vim-php-namespace'
 Plug 'vim-vdebug/vdebug'
 Plug 'ludovicchabant/vim-gutentags'
 Plug 'terryma/vim-multiple-cursors'
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+Plug 'vim-vdebug/vdebug'
 call plug#end()
 
 filetype plugin indent on
@@ -81,3 +83,6 @@ let g:multi_cursor_quit_key            = '<Esc>'
 
 " Mouse support
 set mouse=a
+
+" Prevent crashs when use multi-cursor
+set nolazyredraw
