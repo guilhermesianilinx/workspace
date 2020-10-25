@@ -54,3 +54,6 @@ set mouse=a
 
 " Prevent crashs when use multi-cursor
 set nolazyredraw
+
+" Force syntax
+syntax on
