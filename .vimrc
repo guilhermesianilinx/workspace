@@ -9,12 +9,8 @@ Plug 'bling/vim-airline'
 Plug 'airblade/vim-gitgutter'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'w0rp/ale'
-Plug 'lumiliet/vim-twig'
 Plug 'scrooloose/nerdcommenter'
 Plug 'tpope/vim-surround'
-Plug 'arnaud-lb/vim-php-namespace'
-Plug 'vim-vdebug/vdebug'
-Plug 'ludovicchabant/vim-gutentags'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 call plug#end()
 
