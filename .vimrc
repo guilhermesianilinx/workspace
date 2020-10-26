@@ -12,6 +12,7 @@ Plug 'w0rp/ale'
 Plug 'scrooloose/nerdcommenter'
 Plug 'tpope/vim-surround'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+Plug 'kien/ctrlp.vim'
 call plug#end()
 
 filetype plugin indent on
