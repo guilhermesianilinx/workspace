@@ -36,6 +36,7 @@ Tips
 - Semantic Versioning (https://semver.org)
 - Keep Changelog https://keepachangelog.com
 - Beautiful Illustrations for Frontend https://undraw.co
+- Gogh Terminal Themes (http://mayccoll.github.io/Gogh/)
 
 Search Engine
 
