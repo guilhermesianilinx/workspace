@@ -14,6 +14,8 @@ Install
 - slack (https://slack.com)
 - todolist (http://todolist.site)
 - ctags (http://docs.ctags.io/en/latest/index.html)
+  - Install with $ sudo apt install ctags
+  - Run in a project folder following $ ctags -R .
 - ddgr (https://linoxide.com/tools/search-duckduckgo-command-line/)
 - aws-cli (https://aws.amazon.com/cli/)
 - tmux (https://github.com/tmux/tmux/wiki)
