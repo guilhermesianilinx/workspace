@@ -35,6 +35,9 @@ set background=dark    " Setting dark mode
 map <C-n> :NERDTreeToggle<CR>
 let g:NERDTreeWinSize=60
 
+" CtrlP with tag
+nnoremap <leader>. :CtrlPTag<cr>
+
 " swapfiles location
 set backupdir=/tmp//
 set directory=/tmp//
