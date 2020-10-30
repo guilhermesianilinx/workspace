@@ -13,6 +13,7 @@ Plug 'scrooloose/nerdcommenter'
 Plug 'tpope/vim-surround'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'kien/ctrlp.vim'
+Plug 'vim-vdebug/vdebug'
 call plug#end()
 
 filetype plugin indent on
@@ -23,8 +24,12 @@ set tabstop=4
 set shiftwidth=4
 " On pressing tab, insert 4 spaces
 set expandtab
+
 " Line numbers
-set number
+"set number
+set number relativenumber
+set nu rnu
+
 " Search result highlighting
 set hlsearch
 
@@ -34,9 +39,6 @@ set background=dark    " Setting dark mode
 " NERDTree shortcut
 map <C-n> :NERDTreeToggle<CR>
 let g:NERDTreeWinSize=60
-
-" CtrlP with tag
-nnoremap <leader>. :CtrlPTag<cr>
 
 " swapfiles location
 set backupdir=/tmp//
@@ -61,3 +63,6 @@ set nolazyredraw
 
 " Force syntax
 syntax on
+
+" CtrlP with tag
+nnoremap <leader>. :CtrlPTag<cr>
