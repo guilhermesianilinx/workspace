@@ -12,8 +12,8 @@ Plug 'w0rp/ale'
 Plug 'scrooloose/nerdcommenter'
 Plug 'tpope/vim-surround'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
-Plug 'kien/ctrlp.vim'
 Plug 'vim-vdebug/vdebug'
+Plug 'ludovicchabant/vim-gutentags'
 call plug#end()
 
 filetype plugin indent on
@@ -66,3 +66,9 @@ syntax on
 
 " CtrlP with tag
 nnoremap <leader>. :CtrlPTag<cr>
+
+" Gutentags config
+let g:gutentags_generate_on_new = 1
+let g:gutentags_generate_on_missing = 1
+let g:gutentags_generate_on_write = 1
+let g:gutentags_generate_on_empty_buffer = 0
