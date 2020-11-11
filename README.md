@@ -46,4 +46,4 @@ Search Engine
 
 OS
 
-- Elementary (https://elementary.io)
+- Ubuntu (https://ubuntu.com)
