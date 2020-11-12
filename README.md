@@ -4,6 +4,7 @@ Install
 
 - vim (https://www.vim.org)
 - vim-plug (https://github.com/junegunn/vim-plug)
+- vim-gtk (sudo apt-get install vim-gtk3 -y) Enable copy vim content to clipboard using commands "+y
 - git (https://git-scm.com)
 - ohmyzsh (http://ohmyz.sh)
 - tldr (https://tldr.sh)
