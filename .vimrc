@@ -1,3 +1,6 @@
+set exrc
+set secure
+
 set nocompatible " be iMproved, required
 filetype off " required
 
@@ -15,6 +18,7 @@ Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'vim-vdebug/vdebug'
 Plug 'ludovicchabant/vim-gutentags'
 Plug 'vim-test/vim-test'
+Plug 'yggdroot/indentline'
 call plug#end()
 
 filetype plugin indent on
@@ -39,6 +43,7 @@ set background=dark    " Setting dark mode
 
 " NERDTree config
 map <C-n> :NERDTreeToggle<CR>
+map <C-o> :NERDTreeToggle %<CR>
 let g:NERDTreeWinSize=60
 let g:NERDTreeMouseMode=3
 
@@ -70,10 +75,10 @@ syntax on
 nnoremap <leader>. :CtrlPTag<cr>
 
 " Gutentags config
-"let g:gutentags_generate_on_new = 1
-"let g:gutentags_generate_on_missing = 0
-"let g:gutentags_generate_on_write = 1
-"let g:gutentags_generate_on_empty_buffer = 0
+let g:gutentags_generate_on_new = 1
+let g:gutentags_generate_on_missing = 1
+let g:gutentags_generate_on_write = 1
+let g:gutentags_generate_on_empty_buffer = 0
 
 " vim-test config
 nmap <silent> t<C-n> :TestNearest<CR>
@@ -81,3 +86,6 @@ nmap <silent> t<C-f> :TestFile<CR>
 nmap <silent> t<C-s> :TestSuite<CR>
 nmap <silent> t<C-l> :TestLast<CR>
 nmap <silent> t<C-g> :TestVisit<CR>
+
+" Indent line config
+let g:indentLine_color_term = 239
