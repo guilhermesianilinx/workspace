@@ -12,7 +12,7 @@ Install
 - tig (https://jonas.github.io/tig)
 - docker (https://www.docker.com)
 - slack (https://slack.com)
-- todolist (http://todolist.site)
+- todolist (https://github.com/foobuzz/todo)
 - ctags (http://docs.ctags.io/en/latest/index.html)
   - Install with $ sudo apt install ctags
   - Run in a project folder following $ ctags -R .
